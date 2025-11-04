@@ -10,37 +10,37 @@ namespace Lezione2
     public class Persona
     {
 
-        public string name { get; set; }
-        public string surname { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
 
-        public int age { get; set; }
+        public int Age { get; set; }
 
         public Persona ( string name, string surname, int age)
         {
-            this.name = name;
-            this.surname = surname;
-            this.age = age;
+            Name = name;
+            Surname = surname;
+            Age = age;
         }
 
         public string GetName ()
         {
-            return this.name;
+            return Name;
         }
 
         public string GetSurname ()
         {
-            return this.surname;
+            return Surname;
         }
 
         public int GetAge ()
         {
-            return this.age;
+            return Age;
         }
 
 
         public void getDetails()
         {
-            Console.WriteLine($"Il nome {name} il cognome {surname} e l'età {age}");
+            Console.WriteLine($"Il nome {Name} il cognome {Surname} e l'età {Age}");
         }
 
 
