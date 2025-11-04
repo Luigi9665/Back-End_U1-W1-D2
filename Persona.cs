@@ -38,7 +38,7 @@ namespace Lezione2
         }
 
 
-        public void getDetails()
+        public void GetDetails()
         {
             Console.WriteLine($"Il nome {Name} il cognome {Surname} e l'età {Age}");
         }
