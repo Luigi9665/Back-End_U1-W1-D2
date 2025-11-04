@@ -22,19 +22,19 @@ namespace Lezione2
             this.age = age;
         }
 
-        public void GetName ()
+        public string GetName ()
         {
-            Console.WriteLine($"Il nome della persona è {name}");
+            return this.name;
         }
 
-        public void GetSurname ()
+        public string GetSurname ()
         {
-            Console.WriteLine($"Il cognome della persona è {surname}");
+            return this.surname;
         }
 
-        public void GetAge ()
+        public int GetAge ()
         {
-            Console.WriteLine($"L'età della persona è {age}");
+            return this.age;
         }
 
 
